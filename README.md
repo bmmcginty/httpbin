@@ -1,5 +1,15 @@
 # httpbin(1): HTTP Request & Response Service
 
+## Quickstart
+
+```sh
+pip3 install pipfile-requirements
+pipfile2req | pip3 install -r /dev/stdin
+pip3 install markupsafe jsonschema
+PYTHONPATH=. python -m httpbin
+```
+
+## Original
 
 A [Kenneth Reitz](http://kennethreitz.org/bitcoin) Project.
 
